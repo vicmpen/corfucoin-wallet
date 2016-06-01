@@ -3,7 +3,7 @@ Tenha os seus Litecoins sempre com você, no seu bolso! Efetue pagamentos rapida
 CARACTERÍSTICAS:
 
 • Sem necessidade de cadastro, serviço web ou hospedagem! Esta carteira é descentralizada e "peer to peer".
-• Exibe a quantidade de Litecoins em LTC e mLTC.
+• Exibe a quantidade de Litecoins em CRF e mLTC.
 • Conversão para moedas nacionais.
 • Envio e recebimento de Litecoins via NFC, códigos QR ou endereços Litecoin.
 • Catálogo para guardar os endereços mais utilizados.

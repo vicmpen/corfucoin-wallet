@@ -3,7 +3,7 @@ Ten tus Litecoins siempre contigo, en tu bolsillo! Paga rápidamente escaneando 
 CARACTERÍSTICAS:
 
 • ¡No requiere registro, servidor en la nube o servicio web! Este monedero es auténticamente entre pares (peer-to-peer).
-• Muestra la cantidad de Litecoins en LTC y mLTC
+• Muestra la cantidad de Litecoins en CRF y mLTC
 • Conversión a divisas nacionales.
 • Envío y recepción de litecoins vía NFC, códigos QR o URL de Litecoin.
 • Libreta de direcciones para guardar las direcciones Litecoin más utilizadas.

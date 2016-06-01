@@ -73,6 +73,7 @@
 					<version>3.8.0</version>
 					<configuration>
 						<genDirectory>${basedir}/gen</genDirectory>
+						<release>true</release>
 					</configuration>
 					<extensions>true</extensions>
 				</plugin>
@@ -98,6 +99,7 @@
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<android.sdk.path>/home/vic/Android/Sdk</android.sdk.path>
 	</properties>
 
 </project>

@@ -2,9 +2,9 @@
 <resources>
 
 	<string-array name="preferences_precision_labels">
-		<item>LTC, 8 Dezimalen</item>
-		<item>LTC, 6 Dezimalen</item>
-		<item>LTC, 4 Dezimalen</item>
+		<item>CRF, 8 Dezimalen</item>
+		<item>CRF, 6 Dezimalen</item>
+		<item>CRF, 4 Dezimalen</item>
 		<item>mLTC, 2 Dezimalen</item>
 	</string-array>
 

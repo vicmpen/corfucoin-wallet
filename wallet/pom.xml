@@ -123,6 +123,9 @@
 							<proguard>
 								<skip>true</skip>
 							</proguard>
+							<sdk>
+								<platform>10</platform>
+							</sdk>
 						</configuration>
 					</plugin>
 				</plugins>
@@ -236,6 +239,10 @@
             </plugin>
         </plugins>
 	</build>
+	<properties>
+		<android.sdk.path>/home/vic/Android/Sdk</android.sdk.path>
+		<android.maven.version>3.8.2</android.maven.version>
+	</properties>
 
 	<!-- to generate reports, run: mvn clean install site -->
 	<!-- then browse to: target/site/index.html -->

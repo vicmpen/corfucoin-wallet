@@ -100,7 +100,7 @@ import de.schildbach.wallet.offline.SendBluetoothTask;
 import de.schildbach.wallet.ui.InputParser.StringInputParser;
 import de.schildbach.wallet.util.GenericUtils;
 import de.schildbach.wallet.util.WalletUtils;
-import de.schildbach.wallet_ltc.R;
+import de.schildbach.wallet_crf.R;
 
 /**
  * @author Andreas Schildbach, Litecoin Dev Team
@@ -986,7 +986,7 @@ public final class SendCoinsFragment extends SherlockFragment
             }
             // We have enough money to complete the transaction
             // Now that the transaction is complete, adjust the outputs so change goes to fee
-            // if < 0.001 LTC.  Otherwise, we would need to add a penalty for the output that is
+            // if < 0.001 CRF.  Otherwise, we would need to add a penalty for the output that is
             // larger than the output itself, so it costs LESS to just throw it into the fee.
             for(TransactionOutput o: baseSendRequest.tx.getOutputs()) {
                 if(o.isMine(wallet) &&

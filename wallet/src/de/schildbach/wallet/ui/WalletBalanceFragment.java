@@ -51,7 +51,7 @@ import de.schildbach.wallet.ExchangeRatesProvider.ExchangeRate;
 import de.schildbach.wallet.WalletApplication;
 import de.schildbach.wallet.service.BlockchainService;
 import de.schildbach.wallet.util.WalletUtils;
-import de.schildbach.wallet_ltc.R;
+import de.schildbach.wallet_crf.R;
 
 /**
  * @author Andreas Schildbach, Litecoin Dev Team
@@ -110,7 +110,7 @@ public final class WalletBalanceFragment extends Fragment
 	{
 		super.onViewCreated(view, savedInstanceState);
 
-		final boolean showExchangeRatesOption = getResources().getBoolean(R.bool.show_exchange_rates_option);
+		final boolean showExchangeRatesOption = false;// getResources().getBoolean(R.bool.show_exchange_rates_option);
 
 		viewBalance = view.findViewById(R.id.wallet_balance);
 		if (showExchangeRatesOption)
@@ -311,7 +311,7 @@ public final class WalletBalanceFragment extends Fragment
 			if (data != null)
 			{
 				data.moveToFirst();
-				exchangeRate = ExchangeRatesProvider.getExchangeRate(data);
+				//exchangeRate = ExchangeRatesProvider.getExchangeRate(data);
 				updateView();
 			}
 		}

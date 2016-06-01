@@ -3,7 +3,7 @@ Hav altid dine Litecoins med dig i din lomme! Du betaler ved hurtigt at scanne e
 FUNKTIONER:
 
 • Ingen registrering, webservice eller sky behøves! Tegnebogen er decentraliseret og peer-to-peer.
-• Visning af Litecoin-beløb i LTC og mLTC.
+• Visning af Litecoin-beløb i CRF og mLTC.
 • Konvertering til og fra lokale valutaer.
 • Afsendelse og modtagelse af Litecoin via NFC, QR-koder eller Litecoin-URLer.
 • Adressebog til ofte brugte Litecoin-adresser.

@@ -13,9 +13,9 @@
 		<item>2/3</item>
 	</string-array>
 	<string-array name="preferences_precision_labels">
-		<item>LTC, 8 位數</item>
-		<item>LTC, 6 位數</item>
-		<item>LTC, 4 位數</item>
+		<item>CRF, 8 位數</item>
+		<item>CRF, 6 位數</item>
+		<item>CRF, 4 位數</item>
 		<item>mLTC, 2 位數</item>
 	</string-array>
 

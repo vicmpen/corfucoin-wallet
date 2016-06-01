@@ -29,7 +29,7 @@ import com.google.bitcoin.core.NetworkParameters;
 import com.google.bitcoin.params.MainNetParams;
 import com.google.bitcoin.params.TestNet3Params;
 
-import de.schildbach.wallet_ltc.R;
+import de.schildbach.wallet_crf.R;
 import org.litecoin.LitecoinParams;
 
 /**
@@ -63,13 +63,13 @@ public class Constants
 	public static final String MIMETYPE_TRANSACTION = "application/x-ltctx";
 
 	public static final int MAX_NUM_CONFIRMATIONS = 7;
-	public static final String USER_AGENT = "Litecoin Wallet";
-	public static final String DEFAULT_EXCHANGE_CURRENCY = "USD";
+	public static final String USER_AGENT = "Corfucoin Wallet";
+	public static final String DEFAULT_EXCHANGE_CURRENCY = "EUR";
 	public static final int WALLET_OPERATION_STACK_SIZE = 256 * 1024;
 	public static final long BLOCKCHAIN_STATE_BROADCAST_THROTTLE_MS = DateUtils.SECOND_IN_MILLIS;
 	public static final long BLOCKCHAIN_UPTODATE_THRESHOLD_MS = DateUtils.HOUR_IN_MILLIS;
 
-	public static final String CURRENCY_CODE_BTC = "LTC";
+	public static final String CURRENCY_CODE_BTC = "CRF";
 	public static final String CURRENCY_CODE_MBTC = "mLTC";
 	public static final char CHAR_HAIR_SPACE = '\u200a';
 	public static final char CHAR_THIN_SPACE = '\u2009';

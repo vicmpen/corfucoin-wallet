@@ -95,7 +95,7 @@ import de.schildbach.wallet.util.CrashReporter;
 import de.schildbach.wallet.util.GenericUtils;
 import de.schildbach.wallet.util.ThrottlingWalletChangeListener;
 import de.schildbach.wallet.util.WalletUtils;
-import de.schildbach.wallet_ltc.R;
+import de.schildbach.wallet_crf.R;
 
 /**
  * @author Andreas Schildbach, Litecoin Dev Team
@@ -422,8 +422,8 @@ public class BlockchainServiceImpl extends android.app.Service implements Blockc
 					public InetSocketAddress[] getPeers(final long timeoutValue, final TimeUnit timeoutUnit) throws PeerDiscoveryException
 					{
                         try {
-                            dbPeerDiscovery = new LitcoinPeerDBDiscovery(Constants.NETWORK_PARAMETERS,
-                                    getFileStreamPath("litecoin.peerdb"), peerGroup);
+                       //     dbPeerDiscovery = new LitcoinPeerDBDiscovery(Constants.NETWORK_PARAMETERS,
+//                                    getFileStreamPath("litecoin.peerdb"), peerGroup);
                         } catch(IllegalStateException e) {
                             // This can happen in the guts of bitcoinj
                             Log.i(TAG, "IllegalStateException in bitcoinj: " + e.getMessage());
@@ -651,14 +651,14 @@ public class BlockchainServiceImpl extends android.app.Service implements Blockc
 				final InputStream checkpointsInputStream = getAssets().open(Constants.CHECKPOINTS_FILENAME);
 				final CheckpointManager checkpointManager = new CheckpointManager(Constants.NETWORK_PARAMETERS, checkpointsInputStream);
 				log.info("Earliest creation time: " + wallet.getEarliestKeyCreationTime());
-
-				if (!blockChainFileExists && earliestKeyCreationTime > 0)
-				{
-					final StoredBlock checkpoint = checkpointManager.getCheckpointBefore(earliestKeyCreationTime);
-					blockStore.put(checkpoint);
-					blockStore.setChainHead(checkpoint);
-
-				}
+//
+//				if (!blockChainFileExists && earliestKeyCreationTime > 0)
+//				{
+//					final StoredBlock checkpoint = checkpointManager.getCheckpointBefore(earliestKeyCreationTime);
+//					blockStore.put(checkpoint);
+//					blockStore.setChainHead(checkpoint);
+//
+//				}
 			}
 			catch (final IOException x)
 			{

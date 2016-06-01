@@ -3,7 +3,7 @@ Porta i tuoi Litecoin sempre con te, in tasca! Paghi velocemente scansionando un
 CARATTERISTICHE:
 
 • Non è necessaria alcuna registrazione, servizio web o cloud! Questo portafoglio è de-centralizzato e peer to peer.
-• Mostra l'ammontare di Litecoin in LTC e mLTC.
+• Mostra l'ammontare di Litecoin in CRF e mLTC.
 • Conversione verso e dalle monete nazionali.
 • Invio e ricevimento di Litecoin tramite NFC, codici QR o URL Litecoin.
 • Rubrica degli indirizzi per usare indirizzi Litecoin regolarmente.
